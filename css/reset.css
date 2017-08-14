@@ -1,0 +1,40 @@
+*, html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+	color: #000;
+	background: #FFF;
+}
+	
+body, div, h1, ul, li, h2, h3, input, p, th, td, figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+	
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	border: 0;
+}
+	
+th {
+	font-style: normal;
+	font-weight: normal;
+}
+	
+h1, h2, h3 {
+	font-size: 100%;
+	font-weight: normal;
+}
+	
+input {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}

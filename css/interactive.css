@@ -1,0 +1,415 @@
+.interactive {
+	width: 100%;
+	height: 1000px;
+}
+
+.interactive-div {
+	height: 650px;
+	width: 1000px;
+	background-color: red;
+}
+
+#interactive-tool {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.carousel-inner {
+	position: relative;
+}
+
+#interactive-tool .item { 
+	height: 750px; 
+}
+
+.div-platfrom {
+	position: absolute;
+    left: 200px;
+    top: 30px;  
+	height: 600px;
+	width: 600px;
+}
+
+.robot_1 {
+	position: absolute;
+	background-image: url('../images/robot1.png');
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-color: white;
+	background-position: 30px 30px;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit1 12s linear infinite; 
+	   -moz-animation: orbit1 12s linear infinite; 
+		 -o-animation: orbit1 12s linear infinite; 
+			animation: orbit1 12s infinite linear;
+}
+
+.robot_2 {
+	position: absolute;
+	background-image: url('../images/bioloid/bioloid.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 30px 30px;
+	background-color: white;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit2 12s linear infinite; 
+	   -moz-animation: orbit2 12s linear infinite; 
+		 -o-animation: orbit2 12s linear infinite; 
+			animation: orbit2 12s infinite linear;
+}
+
+.robot_3 {
+	position: absolute;
+	background-image: url('../images/robot3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 30px 25px;
+	background-color: white;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit3 12s linear infinite; 
+	   -moz-animation: orbit3 12s linear infinite; 
+		 -o-animation: orbit3 12s linear infinite; 
+			animation: orbit3 12s infinite linear;
+}
+
+.robot_4 {
+	position: absolute;
+	background-image: url('../images/ezrobot.jpg');
+	background-repeat: no-repeat;
+	background-size: 160px 100px;
+	background-position: 0px 30px;
+	background-color: white;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit4 12s linear infinite; 
+	   -moz-animation: orbit4 12s linear infinite; 
+		 -o-animation: orbit4 12s linear infinite; 
+			animation: orbit4 12s infinite linear;
+}
+
+.robot_5 {
+	position: absolute;
+	background-image: url('../images/bebopdrone2.jpg');
+	background-repeat: no-repeat;
+	background-size: 150px 100px;
+	background-position: 0px 30px;
+	background-color: white;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit5 12s linear infinite; 
+	   -moz-animation: orbit5 12s linear infinite; 
+		 -o-animation: orbit5 12s linear infinite; 
+			animation: orbit5 12s infinite linear;
+}
+
+
+.robot_6 {
+	position: absolute;
+	background-image: url('../images/makeblockstarter.jpg');
+	background-repeat: no-repeat;
+	background-size: 150px 100px;
+	background-position: 0px 30px;
+	background-color: white;
+	top: 240px;
+	left: 210px;
+	border-radius: 300px;
+	width: 160px;
+	height: 160px;
+	border: 2px solid red;
+	margin: 0 auto;
+	-webkit-animation: orbit6 12s  linear infinite; 
+	   -moz-animation: orbit6 12s  linear infinite; 
+		 -o-animation: orbit6 12s  linear infinite; 
+			animation: orbit6 12s infinite linear;
+}
+
+.robot_1 .tooltiptext , .robot_2 .tooltiptext, .robot_3 .tooltiptext, .robot_4 .tooltiptext, .robot_5 .tooltiptext, .robot_6 .tooltiptext{
+     visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.robot_1:hover .tooltiptext, .robot_2:hover .tooltiptext, .robot_3:hover .tooltiptext, .robot_4:hover .tooltiptext, .robot_5:hover .tooltiptext, .robot_6:hover .tooltiptext {
+    visibility: visible;
+	opacity: 1;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes orbit1 {
+    from {transform: rotate(0deg) translateX(240px) rotate(0deg);}
+    to {transform: rotate(360deg) translateX(240px) rotate(-360deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit1 {
+    from {transform: rotate(0deg) translateX(240px) rotate(0deg);}
+    to {transform: rotate(360deg) translateX(240px) rotate(-360deg);}
+}
+
+@-webkit-keyframes orbit2 {
+    from {transform: rotate(60deg) translateX(240px) rotate(-60deg);}
+    to {transform: rotate(420deg) translateX(240px) rotate(-420deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit2 {
+    from {transform: rotate(60deg) translateX(240px) rotate(-60deg);}
+    to {transform: rotate(420deg) translateX(240px) rotate(-420deg);}
+}
+
+@-webkit-keyframes orbit3 {
+    from {transform: rotate(120deg) translateX(240px) rotate(-120deg);}
+    to {transform: rotate(480deg) translateX(240px) rotate(-480deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit3 {
+    from {transform: rotate(120deg) translateX(240px) rotate(-120deg);}
+    to {transform: rotate(480deg) translateX(240px) rotate(-480deg);}
+}
+
+@-webkit-keyframes orbit4 {
+    from {transform: rotate(180deg) translateX(240px) rotate(-180deg);}
+    to {transform: rotate(540deg) translateX(240px) rotate(-540deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit4 {
+    from {transform: rotate(180deg) translateX(240px) rotate(-180deg);}
+    to {transform: rotate(540deg) translateX(240px) rotate(-540deg);}
+}
+
+
+@-webkit-keyframes orbit5 {
+    from {transform: rotate(240deg) translateX(240px) rotate(-240deg);}
+    to {transform: rotate(600deg) translateX(240px) rotate(-600deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit5 {
+    from {transform: rotate(240deg) translateX(240px) rotate(-240deg);}
+    to {transform: rotate(600deg) translateX(240px) rotate(-600deg);}
+}
+
+@-webkit-keyframes orbit6 {
+    from {transform: rotate(300deg) translateX(240px) rotate(-300deg);}
+    to {transform: rotate(660deg) translateX(240px) rotate(-660deg);}
+}
+
+/* Standard syntax */
+@keyframes orbit6 {
+    from {transform: rotate(300deg) translateX(240px) rotate(-300deg);}
+    to {transform: rotate(660deg) translateX(240px) rotate(-660deg);}
+}
+
+
+.pause {
+    -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
+    animation-play-state: paused;
+}
+
+.col-md-6 {
+	border: 1px solid blue;
+	height: 300px;
+	display: none;
+	opacity: 0;
+	cursor: pointer;
+	line-height: 300px;
+	text-align: center;
+}
+
+.col-md-6 span {
+	font-size: 3.5em; 
+	display: inline-block; 
+	vertical-align: middle; 
+	line-height: normal
+}
+
+.core {
+	position: relative;
+	background-color: black;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	top: 200px;
+}
+
+#div1 {
+	background-color: #4f2d7f;
+}
+
+
+#div5 {
+	background-color: blue;
+}
+
+#left {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#right {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.title-panel {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.title {
+	display: inline-block;
+	font-size: 2.5em;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+.video-title {
+	display: inline-block;
+	font-size: 2.5em;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+.videos-list-panel {
+	display: table;
+	height: 70%;
+	margin: 0 auto;
+}
+
+.videos-list {
+	margin: 0 auto;
+	display: table-cell;
+	line-height: 50px;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.videos-list a {
+	font-size: 2em;
+}
+
+.arduino-core-image {
+	position: absolute;
+	top: 150px;
+	z-index: 0;
+	width: 400px;
+	height: 400px;
+	background: url('../images/rover/rover-pcb.png') no-repeat;
+	background-size: 400px 271px;
+}
+
+.features {
+	position: relative;
+	z-index: 2;
+	height: 400px;
+	width: 430px;
+	text-align: center;
+}
+
+.features h1 {
+	font-size: 1.8em;
+}
+.features li {
+	font-size: 1.3em;
+	text-align: justify;
+	padding: 3px;
+}
+
+.panel-primary {
+	margin: 0 auto;
+	width: 700px;
+}
+
+.resources-panel {
+	width: 700px;
+	height: 500px;
+	margin: 0px auto;
+}
+
+.panel-title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.ultool {
+	display: inline-block;
+	list-style-type:circle;
+	list-style-type: disc;
+	list-style-position: inside;
+	line-height: 20px;
+	height: auto;
+	width: 700px;
+	padding-left: 0px;
+}
+
+.ultool a {
+	position: aboslute;
+	left: 0px;
+}
+
+area {
+	cursor: pointer;
+}
+
+.img-circle:hover {
+	border: 2px solid blue;
+}
+
+.img-circle {
+	border: 2px solid white;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.well-sm a {
+	font-size: 1.2em;
+}

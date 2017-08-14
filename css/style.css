@@ -1,0 +1,819 @@
+* {
+   font-family: Times New Roman;
+   font-size: 16px;
+}
+
+header {
+	background-image: url("../images/images.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: 2000px;
+	background-position: -400px 0;
+	min-width: 1300px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: Times New Roman;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-family: Times New Roman;
+}
+
+.header_div {
+	background-image: url("../images/nasa_logo.gif");
+	background-size: 130px 100px;
+	width: 624px;
+	height: 100px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.header_div_div {
+	position: relative;
+	left: 40px;
+	margin: auto;
+	margin-left: 110px;
+	width: 480px;
+	font-size: 30px;
+	top: 20px;
+}
+
+.header_div_div h1 {
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+.facebook {
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	background-image: url('../images/facebook.png');
+}
+
+.nav-main {
+	min-width: 1350px;
+	background-color: black;
+	height:70px;
+	position: relative;
+	z-index: 1;
+}
+
+.verticalCenter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.supermain {
+	background-image: url("../images/main1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#menudiv {
+	width: 1100px;
+	height: 70px;
+	margin: auto;
+
+	position: relative;	
+	left: 100px;
+}
+
+ul{
+	list-style-type: none;
+	height: 50px;
+}
+
+ul#navmenu li {
+	width: 176px;
+	text-align: center;
+	position: relative;
+	float: left;
+	height: 70px;
+	margin-right: 4px;
+}
+
+.menu_title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+ul#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	color: white;
+	transition: background-color 0.5s;
+}
+
+ul#navmenu li a {
+}
+
+ul#education a {
+	width: 150px;
+}
+
+ul#interactive a {
+	width: 140px;
+}
+
+ul#navmenu .sub1 a {
+	background-color: black;
+	transition: all 0.5s ease-in-out;
+}
+
+ul#navmenu li:hover {
+	transition: all 0.5s ease-in-out;
+}
+ul#navmenu li:hover > a{
+	background-color: #444;
+}
+
+ul#navmenu li:hover a:hover {
+	background-color: #F0C127;
+}
+
+ul#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 70px;
+	left: 0px;
+}
+
+ul#navmenu li:hover .sub1 {
+	display: block;
+	color: black;
+}
+
+ul#navmenu ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 125px;
+}
+
+ul#navmenu ul.sub2 a{
+	width: 300px;
+	display: block;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+ul#navmenu ul.sub1 li:hover .sub2 {
+	display: block;
+}
+
+
+ul#navmenu ul.sub3 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 165px;
+	
+}
+
+ul#navmenu ul.sub3 a{
+	width: 300px;
+	display: block;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+ul#navmenu ul.sub1 li:hover .sub3 {
+	display: block;
+}
+
+
+.main-color {
+	background-color: white;
+}
+
+.main {
+	width: 800px;
+	margin: auto;
+	text-align: justify;
+	padding-top: 30px;
+	position: relative;
+	z-index: 0;
+	background-color: white;
+}
+.main h2 {
+	margin-bottom: 10px;
+}
+
+.panel-title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.ultool {
+	display: inline-block;
+	list-style-type:circle;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.main p {
+	font-family: Times New Roman;
+	font-size: 1.3em;
+}
+
+img#img {
+	float: left;
+	margin: 10px;
+}
+
+.People_div {
+	width: 750px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.People_div h2 {
+	font-size: 2em;
+	font-family: armenian;
+}
+
+a {
+	text-decoration: none;
+}
+
+.People_div_img {
+	height: 160px;
+	width: 160px;
+}
+
+.People_div_title {
+	width: 250px;
+	text-align: center;
+}
+
+.People_div_title a {
+	font-size: 1.2em;
+}
+
+.People_div_description{
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.Publications_li {
+	font-size: 1.8em;
+	color: rgb(51, 0, 0);
+}
+
+.Publications_p {
+	text-align: justify;
+}
+
+.Publications_ul li {
+	width: 100%;
+}
+
+.Publications_li ul li {
+	list-style-type: decimal;
+}
+
+#studentprojects {
+	width: 1000px;
+}
+
+.studentprojects {
+	height: 3000px;
+}
+
+.studentprojects_table {
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+.studentprojects_table_td_div {
+	width: 300px; 
+	height: 270px;
+} 
+
+.studentprojects_table_td_div .div1 {
+	width: 300px;
+	height: 50px;
+	display: table;
+}
+
+.studentprojects_table_td_div .div1 h3 {
+	border-bottom: 3px solid blue; 
+	text-align:center; 
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+.studentprojects_table_td_div .div2 {
+	width: 300px; 
+	height: 200px; 
+	display: table;
+	letter-spacing: -0.5px; 
+}
+
+.studentprojects_table_td_div .div2 p {
+	padding: 15px; 
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+.robot1-div3, .robot1-div4, .robot2, .robot3, .robot4, .robot5, .student-robot6, .robot7, .robot8, .robot9, .robot12, .robot10, .robot13, .robot11, .robot15{
+	width: 200px;
+	height: 280px;
+	background-repeat: no-repeat;
+	border-radius: 25px;
+	transition: all 2s ease;
+}
+
+.robot2 a, .robot3 a, .robot4 a, .robot5 a, .robot7 a, .robot8 a, .robot11 a, .robot9 a, .robot10 a, .robot12 a, .robot13 a, .robot15 a{
+	width: 200px; 
+	height: 280px; 
+	display: block;
+	border-radius: 25px;
+	border: 2px solid red;
+}
+
+.studentprojects_table_td_div h3 a, .robot1 h3 a {
+	color: black;
+	font-size: 1em;
+}
+
+.robot1-div1 {
+	height: 50px;
+	width: 400px;
+}
+
+.robot1-div2 {
+	height: 100px;
+}
+.robot1-div3 , .student-robot6{
+	width: 400px;
+	height: 130px;
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: 0px 0px;
+	border-radius: 25px;
+	border: 2px solid red;
+}
+
+.robot1-div3:hover {
+	background-image: url("../images/robot1.png");
+	background-size: 180px 200px;
+	background-position: 100px -30px;
+}
+
+.robot1-div4 , .student-robot6{
+	width: 400px;
+	height: 130px;
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: 0px 0px;
+	border-radius: 25px;
+	border: 2px solid red;
+}
+
+.robot1-div4:hover {
+	background-image: url("../images/bebop.jpg");
+	background-size: 180px 200px;
+	background-position: 100px -30px;
+}
+
+.robot2:hover, .robot3:hover, .robot4:hover, .robot5:hover, .robot7:hover, .robot8:hover, .robot11:hover, .robot9:hover, .robot12:hover, .robot10:hover, .robot13:hover, .robot15:hover {
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+.robot2, .robot7, .robot15{
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: 0px -130px;
+}
+
+.robot2:hover  {
+	background-image: url("../images/robot1.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot7:hover {
+	background-image: url("../images/six.jpg");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot15:hover {
+	background-image: url("../images/MiP.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot3 , .robot8, .robot11{
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: -200px -130px;
+}
+
+.robot3:hover {
+	background-image: url("../images/robot3.png");
+	background-size: 450px 280px;
+	background-position: -130px 0px;
+}
+
+.robot8:hover {
+	background-image: url("../images/robot1.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot11:hover {
+	background-image: url("../images/sphero.jpg");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot4, .robot9, .robot12{
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: 0px -410px;
+}
+
+.robot4:hover {
+	background-image: url("../linkedWebsites/raspberrypi/images/RaspberryPi_Logo.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot9:hover {
+	background-image: url("../images/roli.jpg");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot12:hover {
+	background-image: url("../images/jd.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot5 {
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: -200px -410px;
+}
+
+.robot5:hover {
+	background-image: url("../images/robot1.png");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+
+
+.robot10, .robot13{
+	background-image: url("../images/nao-robot.jpg");
+	background-size: 400px 685px;
+	background-position: -200px -410px;
+}
+
+.robot10:hover {
+	background-image: url("../images/bebop.jpg");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.robot13:hover {
+	background-image: url("../images/mb2.jpg");
+	background-size: 200px 280px;
+	background-position: 0px 0px;
+}
+
+.student-robot6:hover {
+	background-image: url("../images/jd.png");
+	background-size: 180px 150px;
+	background-position: 100px -10px;
+}
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+.row img {
+	height: 400px;
+	width: 600px;
+}
+
+#myCarousel .item { height: 400px; }
+#myCarousel2 .item { height: 400px; }
+#workshopC .item { height: 400px; }
+#carlsturtc .item { 
+	height: 400px;
+	background-size: 600px 400px;
+}
+#bobcourtwayc2 .item { 
+	height: 400px;
+	background-size: 600px 400px;
+}
+
+#reesejosephc .item {
+	height: 400px;
+	background-size: 600px 400px;
+}
+#aphalegoc .item {
+	height: 400px;
+	background-size: 600px 400px;
+}
+#geraldandreesec .item {
+	height: 400px;
+	background-size: 600px 400px;
+}
+
+#roboticsApr4c .item {
+	height: 400px;
+	background-size: 600px 400px;
+}
+
+#symposiumApr4c .item {
+	height: 400px;
+	background-size: 600px 400px;
+
+}
+
+.carouselSciencenight .item {
+	background-size: 300px 400px;
+}
+
+
+
+#slide1 {
+	background: url('../images/outreach/St. Joseph 1.png') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide2 {
+	background: url('../images/outreach/carousel_medium_02.jpg') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide3 {
+	background: url('../images/outreach/Bob1.png') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide4 {
+	background: url('../images/outreach/Bob2.png') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide5 {
+	background: url('../images/outreach/workshop/IMG_3024.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+
+
+#slide6 {
+	background: url('../images/outreach/workshop/IMG_3027.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide7 {
+	background: url('../images/outreach/workshop/IMG_3035.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide8 {
+	background: url('../images/outreach/workshop/IMG_3037.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide9 {
+	background: url('../images/outreach/workshop/IMG_3039.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide10 {
+	background: url('../images/outreach/workshop/IMG_3040.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide11 {
+	background: url('../images/outreach/workshop/IMG_3044.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+#slide12 {
+	background: url('../images/outreach/workshop/IMG_3023.JPG') top center no-repeat;
+	background-size: 600px 400px;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+.resources {
+	width: 900px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 30px;	
+	background-color: #E6E6EF;
+}
+
+.resources img {
+	height: 180px;
+	width: 240px;
+	margin-right: 20px;
+}
+
+.media {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #A1A1A7;
+}
+
+.media-heading {
+	color: #6699FF;
+	font-size: 30px;
+}
+
+.media-body a{
+	text-decoration: none;
+}
+
+.media-body p{
+	letter-spacing: -0.5px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: inline;
+}
+
+#robotshop {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 400px; }
+	
+	#slide1 {
+		background: url("../images/outreach/St. Joseph 1.png") top center no-repeat;
+		background-size: 600px 400px;
+	}
+	
+	#slide2 {
+		background: url('../images/outreach/St. Joseph 2.png') top center no-repeat;
+		background-size: 600px 400px;
+	}
+}
+
+
+
+
+
+
+
